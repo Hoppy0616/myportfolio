@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Link from '../components/link.astro';
+
+
+---
+
+<Layout title="Hoppy hobby" />
+    <div>
+        <main id="falling-area">
+        <h1 class="title">Hoppy Hobby</h1>
+        <h2>趣味</h2>
+        <h3>ゲーム</h3>
+            <ul>
+                <li>原神</li>
+                <li>バンドリ</li>
+                <li>ポケモン</li>
+            </ul>
+        <h3>楽器</h3>
+            <ul>
+                <li>ドラム</li>
+                <li>ベース</li>
+                <li>打楽器</li>
+            </ul>
+    </main>
+    </div>
+</Layout>
+<style>
+    main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    color: #FFFFFF;
+    }
+    .title {
+        color: #FFFFFF;
+    }
+</style>

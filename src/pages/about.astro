@@ -1,0 +1,32 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Link from "../components/link.astro";
+
+
+---
+
+<Layout title="About hoppy">
+    <main>
+        <h1 class="title">About Hoppy</h1>
+        <p>千葉生まれ、静岡育ちの22歳</p>
+        <h2>所属</h2>
+        <ul>
+            <li>株式会社みらいスタジオ(正社員)</li>
+            <li>ハイマスト合同会社(業務委託)</li>
+            <li>任意団体NextCretors(代表)</li>
+        </ul>
+        
+    </main>
+</Layout>
+<style>
+    main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    color: #FFFFFF;
+    }
+    .title {
+        color: #FFFFFF;
+    }
+</style>
